@@ -1,19 +1,6 @@
 <html>
   <head>
     <title>Olark</title>
-    <script type="text/javascript">
-      // set user info
-      olark('api.visitor.updateFullName', { fullName: 'John Doe' });
-      olark('api.visitor.updateEmailAddress', { emailAddress: 'johndoe@olark.com' });
-      olark('api.visitor.updatePhoneNumber', { phoneNumber: '(555) 555-5555' });
-      olark('api.visitor.updateCustomFields', {
-        businessName: 'Google',
-        businessAddress1: 'Address 1',
-        businessAddress2: 'Address 2',
-        businessCity: 'New York',
-        businessState: 'NY'
-      });
-    </script>
   </head>
   <body>
     <h1>Headline</h1>
@@ -39,5 +26,18 @@
     olark.identify('7762-564-10-1532');/*]]>*/</script><noscript><a href="https://www.olark.com/site/7762-564-10-1532/contact" title="Contact us" target="_blank">Questions? Feedback?</a> powered by <a href="http://www.olark.com?welcome" title="Olark live chat software">Olark live chat software</a></noscript>
     <!-- end olark code -->
 
+    <script type="text/javascript">
+      // set user info
+      olark('api.visitor.updateFullName', { fullName: 'John Doe' });
+      olark('api.visitor.updateEmailAddress', { emailAddress: 'johndoe@olark.com' });
+      olark('api.visitor.updatePhoneNumber', { phoneNumber: '(555) 555-5555' });
+      olark('api.visitor.updateCustomFields', {
+        businessName: 'Google',
+        businessAddress1: 'Address 1',
+        businessAddress2: 'Address 2',
+        businessCity: 'New York',
+        businessState: 'NY'
+      });
+    </script>
   </body>
 </html>
